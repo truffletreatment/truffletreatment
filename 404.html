@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Truffle Treatment Amsterdam</title>
+<script>
+  // Map old Wix URLs to new hash sections
+  var redirects = {
+    'about-me':                   '/#about',
+    'about':                      '/#about',
+    'events':                     '/#events',
+    'guided-psilocybin-session':  '/#psilocybin',
+    'psilocybin':                 '/#psilocybin',
+    'breathwork':                 '/#breathwork',
+    'contact':                    '/#contact',
+    'integration':                '/#psilocybin',
+    'sessions':                   '/#psilocybin',
+  };
+
+  var path = window.location.pathname.replace(/^\//, '').replace(/\/$/, '').toLowerCase();
+  var destination = redirects[path] || '/';
+  window.location.replace('https://truffletreatment.nl' + destination);
+</script>
+</head>
+<body>
+</body>
+</html>
