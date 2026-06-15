@@ -3,14 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Truffle Treatment Amsterdam</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico"/>
 <link rel="apple-touch-icon" href="markdark500.png"/>
-<meta name="description" content="Truffle Treatment Amsterdam — private guided psilocybin ceremonies, magic truffle sessions, breathwork &amp; integration support in Amsterdam and the Netherlands. Safe, professional and heartfelt."/>
-<meta name="keywords" content="psilocybin Amsterdam, truffle ceremony Amsterdam, guided mushroom session Amsterdam, magic truffle trip Amsterdam, psychedelic therapy Netherlands, psilocybin retreat Amsterdam, psilocybin guide Amsterdam, mushroom ceremony Netherlands, psychedelic session Amsterdam, breathwork Amsterdam, psychedelic integration Amsterdam, psilocybin facilitator Amsterdam, conscious breathwork Netherlands, inner healing Amsterdam, truffle treatment"/>
-<meta property="og:title" content="Truffle Treatment Amsterdam — Psilocybin Ceremonies &amp; Breathwork"/>
-<meta property="og:description" content="Private guided psilocybin ceremonies, magic truffle sessions, breathwork &amp; integration support in Amsterdam. Safe, professional and deeply personal."/>
-<meta property="og:url" content="https://truffletreatment.nl"/>
 <meta property="og:image" content="https://truffletreatment.nl/horizontaldark2.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -18,7 +12,15 @@
 <meta name="twitter:image" content="https://truffletreatment.nl/horizontaldark2.png"/>
 <link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet"/>
+<title>Truffle Treatment Amsterdam — Psilocybin Ceremonies &amp; Breathwork</title>
+<meta name="description" content="Private guided psilocybin ceremonies, magic truffle sessions, breathwork &amp; integration support in Amsterdam and the Netherlands. Safe, professional and heartfelt."/>
+<meta name="keywords" content="psilocybin Amsterdam, truffle ceremony Amsterdam, guided mushroom session Amsterdam, breathwork Amsterdam, psychedelic therapy Netherlands, psilocybin retreat Amsterdam"/>
+<meta property="og:title" content="Truffle Treatment Amsterdam — Psilocybin Ceremonies &amp; Breathwork"/>
+<meta property="og:description" content="Private guided psilocybin ceremonies, breathwork &amp; integration in Amsterdam."/>
+<meta property="og:url" content="https://truffletreatment.nl"/>
+<meta property="og:type" content="website"/>
 <style>
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--ink:#0d1210;--parchment:#f2ede4;--moss:#2e3b2f;--sage:#7a9e7e;--gold:#c9a96e;--cream:#e8e0d0}
 html{scroll-behavior:smooth}
@@ -235,11 +237,15 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
   .breathwork-hero-split .bw-img{height:280px !important;min-height:280px !important}
   .integration-split{grid-template-columns:1fr !important}
 }
+
+/* Multi-page overrides */
+.page{display:block !important}
+#site-nav a.logo{text-decoration:none;color:var(--parchment)}
 </style>
 </head>
 <body>
 <header id="site-nav">
-  <a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 36 36" fill="none" width="36" height="36">
+  <a class="logo" href="/"><svg viewBox="0 0 36 36" fill="none" width="36" height="36">
   <circle cx="18.0" cy="18.0" r="15.5" stroke="#7a9e7e" stroke-width=".6" opacity=".4" fill="none"/>
   <circle cx="18.0" cy="18.0" r="11.9" stroke="#c9a96e" stroke-width=".5" opacity=".55" fill="none"/>
   <line x1="18.0" y1="6.1" x2="7.7" y2="12.1" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="7.7" y1="12.1" x2="7.7" y2="23.9" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="7.7" y1="23.9" x2="18.0" y2="29.9" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="18.0" y1="29.9" x2="28.3" y2="23.9" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="28.3" y1="23.9" x2="28.3" y2="12.1" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="28.3" y1="12.1" x2="18.0" y2="6.1" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
@@ -253,16 +259,16 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
 <div id="drawer">
   <button id="drawer-close" onclick="toggleMenu()">&#x2715;</button>
   <nav>
-    <a href="#" onclick="go('home');toggleMenu();return false">Home</a>
-    <a href="#" onclick="go('breathwork');toggleMenu();return false">Breathwork</a>
-    <a href="#" onclick="go('psilocybin');toggleMenu();return false">Psilocybin</a>
-    <a href="#" onclick="go('events');toggleMenu();return false">Events</a>
-    <a href="#" onclick="go('about');toggleMenu();return false">About Me</a>
-    <a href="#" onclick="go('contact');toggleMenu();return false" class="cta">Get in Touch</a>
+    <a href="/" style="color:var(--gold)">Home</a>
+    <a href="/breathwork">Breathwork</a>
+    <a href="/guided-psilocybin-session">Psilocybin</a>
+    <a href="/events">Events</a>
+    <a href="/about-me">About Me</a>
+    <a href="/take-the-first-step" class="cta">Get in Touch</a>
+    
   </nav>
 </div>
-
-<div class="page pt" id="p-home">
+<div class="pt">
 
 <section class="hero">
   <div class="hero-bg" style="background-image:url('poli.jpg');background-size:cover;background-position:center 30%;"></div>
@@ -279,8 +285,8 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
     <h1>A doorway into<br/>your <em>inner world</em></h1>
     <p class="hero-sub">Private and group sessions combining breathwork, psilocybin, and embodied practice — held in a safe, loving container in Amsterdam.</p>
     <div class="hero-btns">
-      <a href="#" onclick="go('breathwork');return false" class="btn btn-gold">Explore Breathwork</a>
-      <a href="#" onclick="go('psilocybin');return false" class="btn btn-ghost">Explore Psilocybin</a>
+      <a href="/breathwork" class="btn btn-gold">Explore Breathwork</a>
+      <a href="/guided-psilocybin-session" class="btn btn-ghost">Explore Psilocybin</a>
     </div>
   </div>
   <div class="scroll-hint">Scroll</div>
@@ -298,21 +304,21 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
       <h3 style="color:var(--sage)">Breathwork</h3>
       <p>Transformational breathwork sessions to regulate your nervous system, release tension, and reconnect with your body — in a 1:1 or group setting.</p>
       <div class="card-tags"><span class="tag">1:1 Sessions</span><span class="tag">Nervous System</span><span class="tag">Emotional Release</span></div>
-      <a href="#" onclick="go('breathwork');return false" class="card-link">Learn more</a>
+      <a href="/breathwork" class="card-link">Learn more</a>
     </div>
     <div class="card r d1">
       <div class="card-num">02</div>
       <h3 style="color:var(--sage)">Psilocybin Sessions</h3>
       <p>Private guided truffle ceremonies in Amsterdam, with thorough preparation and integration support before, during, and after your journey.</p>
       <div class="card-tags"><span class="tag">Private Journeys</span><span class="tag">Preparation</span><span class="tag">Integration</span></div>
-      <a href="#" onclick="go('psilocybin');return false" class="card-link">Learn more</a>
+      <a href="/guided-psilocybin-session" class="card-link">Learn more</a>
     </div>
     <div class="card r d2">
       <div class="card-num">03</div>
       <h3 style="color:var(--sage)">Events &amp; Ceremonies</h3>
       <p>Group cacao &amp; microdose ceremonies, workshops, and seasonal gatherings — spaces designed for collective healing and shared presence.</p>
       <div class="card-tags"><span class="tag">Cacao Ceremony</span><span class="tag">Group Sessions</span><span class="tag">Workshops</span></div>
-      <a href="#" onclick="go('events');return false" class="card-link">View events</a>
+      <a href="/events" class="card-link">View events</a>
     </div>
   </div>
 </section>
@@ -324,7 +330,7 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
     <h2 class="r">Holding space for<br/><em>real transformation</em></h2>
     <p class="r">My journey as a psychedelic facilitator started in 2016. I see life through a holistic view, and I believe that achieving good health asks us to look for alternative and ancient ways to restore balance in our minds and bodies.</p>
     <p class="r">My intention is to create an environment where you feel safe, acknowledged, heard and truly understood.</p>
-    <a href="#" onclick="go('about');return false" class="btn btn-ghost r" style="margin-top:1.2rem;border-width:1px;font-size:.68rem">Read more about me</a>
+    <a href="/about-me" class="btn btn-ghost r" style="margin-top:1.2rem;border-width:1px;font-size:.68rem">Read more about me</a>
   </div>
 </div>
 
@@ -363,12 +369,12 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
 <section class="cta-band">
   <h2 class="r">Interested in working together?</h2>
   <p class="r">Reach out for a free 20-minute intro call. No pressure — just a conversation.</p>
-  <a href="#" onclick="go('contact');return false" class="btn btn-gold r">Get in Touch</a>
+  <a href="/take-the-first-step" class="btn btn-gold r">Get in Touch</a>
 </section>
 
 <div class="partners r"><span>In partnership with</span><a href="https://www.studiovliegenbos.nl" target="_blank">Studio Vliegenbos</a><a href="https://www.cosmictruffles.nl/en/" target="_blank">Cosmic Truffles</a><a href="https://innercamp.com" target="_blank">InnerCamp</a><a href="https://learning.breathworkmasterclass.com/breathwork-coach/" target="_blank">Breathwork Masterclass</a></div>
 <footer>
-  <div class="ft-left"><a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
+  <div class="ft-left"><a class="logo" href="/"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
   <circle cx="21" cy="21" r="17" stroke="#7a9e7e" stroke-width=".6" opacity=".4"/>
   <circle cx="21" cy="21" r="13" fill="none" stroke="#c9a96e" stroke-width=".6" opacity=".55"/>
   <line x1="21.00" y1="8.00" x2="9.74" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="14.50" x2="9.74" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="27.50" x2="21.00" y2="34.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="21.00" y1="34.00" x2="32.26" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="27.50" x2="32.26" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="14.50" x2="21.00" y2="8.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
@@ -376,404 +382,20 @@ footer{padding:4rem 4rem 2.5rem;border-top:1px solid rgba(242,237,228,.07);displ
   <circle cx="21.00" cy="8.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="21.00" cy="34.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/>
   <circle cx="21" cy="21" r="2.5" fill="#c9a96e" opacity=".8"/>
 </svg><div class="logo-text" style="font-size:.88rem">Truffle Treatment<small>Amsterdam</small></div></a><p>Breathwork &amp; psilocybin ceremonies in Amsterdam.</p></div>
-  <nav class="ft-nav"><a href="#" onclick="go('home');return false">Home</a><a href="#" onclick="go('breathwork');return false">Breathwork</a><a href="#" onclick="go('psilocybin');return false">Psilocybin</a><a href="#" onclick="go('events');return false">Events</a><a href="#" onclick="go('about');return false">About Me</a><a href="#" onclick="go('contact');return false">Get in Touch</a></nav>
-  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="#" onclick="go('contact');return false">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
+  <nav class="ft-nav"><a href="/">Home</a><a href="/breathwork">Breathwork</a><a href="/guided-psilocybin-session">Psilocybin</a><a href="/events">Events</a><a href="/about-me">About Me</a><a href="/take-the-first-step">Get in Touch</a></nav>
+  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="/take-the-first-step">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
 </footer>
 <div class="ft-bottom"><p>© 2025 Truffle Treatment Amsterdam</p><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy</a></div>
 </div>
-
-<div class="page pt" id="p-breathwork">
-
-<section class="breathwork-hero-split" style="padding-top:64px;min-height:55vh;display:grid;grid-template-columns:1fr 1fr;background:radial-gradient(ellipse 120% 100% at 30% 60%,rgba(46,59,47,.5) 0%,#0d1210 65%);overflow:hidden;position:relative">
-  <div style="padding:4rem 3rem 4.5rem 4rem;display:flex;flex-direction:column;justify-content:flex-end">
-    <p style="font-size:.68rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold);font-family:'Jost',sans-serif;font-weight:200;margin-bottom:1.5rem;opacity:0;animation:up .9s .3s forwards">Breathwork · Amsterdam</p>
-    <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.4rem,4vw,3.8rem);font-weight:300;line-height:1.1;color:#f2ede4;margin-bottom:1rem;opacity:0;animation:up .9s .5s forwards">Breathwork sessions<br/><em style="font-style:italic;color:var(--sage)">in Amsterdam</em></h1>
-    
-    <p style="font-size:1rem;color:#e8e0d0;line-height:1.8;max-width:440px;margin-bottom:1.8rem;opacity:0;animation:up .9s .7s forwards">A grounded practice to regulate your nervous system, release tension, and reconnect with your body.</p>
-    <p style="font-size:.82rem;color:rgba(242,237,228,.5);line-height:1.8;max-width:440px;margin-bottom:1.8rem;opacity:0;animation:up .9s .75s forwards">Breathwork sessions are also offered through <a href="https://allurabreath.com" target="_blank" style="text-decoration:none;font-family:'Cormorant Garamond',serif;font-size:.95rem;color:#f2ede4;letter-spacing:.04em">Allura <em style="font-style:italic;color:#7a9e7e">Breath</em></a> — <a href="https://allurabreath.com" target="_blank" style="color:rgba(201,169,110,.7);font-size:.78rem;letter-spacing:.05em;text-decoration:none;border-bottom:1px solid rgba(201,169,110,.25)">visit allurabreath.com</a></p>
-    <div style="opacity:0;animation:up .9s .85s forwards"><a href="#" onclick="go('contact');return false" class="btn btn-gold">Book a Session</a></div>
-  </div>
-  <div class="bw-img" style="overflow:hidden;min-height:300px;position:relative">
-    <img src="session.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block"/>
-    <div style="position:absolute;inset:0;background:linear-gradient(to left,transparent 40%,rgba(13,18,16,.5) 100%)"></div>
-  </div>
-</section>
-
-<section class="section">
-  <p class="r" style="font-size:.97rem;color:rgba(242,237,228,.78);max-width:700px;line-height:1.95">Breath is one of the most powerful tools we have to <em class="hi">influence how we feel, think, and function.</em> In my sessions, I use breathwork as a practical and embodied way to regulate the nervous system, release tension, and create more capacity in the body and mind.</p>
-  <div class="rule"></div>
-  <div class="slabel r">Session types</div>
-  <div class="svc-grid">
-    <div class="svc r">
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;color:var(--sage);margin-bottom:.5rem">1:1 Breathwork &amp; Bodywork</div>
-      <p class="svc-sub">Personal sessions tailored to your needs — physical, emotional, or stress-related</p>
-      <div class="svc-items"><span>Nervous system regulation</span><span>Breath retraining</span><span>Body awareness + gentle bodywork</span><span>Deep release + integration</span></div>
-    </div>
-    <div class="svc r d1">
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;color:var(--sage);margin-bottom:.5rem">Group Sessions &amp; Workshops</div>
-      <p class="svc-sub">Breathwork experiences in a shared setting</p>
-      <div class="svc-items"><span>Nervous system down-regulation</span><span>Stress release</span><span>Group regulation &amp; connection</span><span>Accessible for beginners</span></div>
-    </div>
-    <div class="svc r d2">
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;color:var(--sage);margin-bottom:.5rem">Performance &amp; Recovery</div>
-      <p class="svc-sub">For athletes and active people</p>
-      <div class="svc-items"><span>Improve oxygen efficiency and endurance</span><span>Support faster recovery</span><span>Boost focus under pressure</span><span>Strengthen the mind-body connection</span></div>
-    </div>
-    <div class="svc r d3">
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;color:var(--sage);margin-bottom:.5rem">Online Sessions</div>
-      <p class="svc-sub">For those outside Amsterdam or who prefer to work from home</p>
-      <div class="svc-items"><span>1:1 breathwork via video call</span><span>Nervous system &amp; stress support</span><span>Flexible scheduling</span></div>
-    </div>
-  </div>
-  <div class="rule"></div>
-  <div style="max-width:700px">
-    <p class="r">In my work, I combine breathwork with mindfulness and body-based practices, with the intention to create a safe and supportive space where you can reconnect with yourself, calm your body, and ease your mind.</p>
-    <p class="r"><em class="hi">Every session is tailored to your individual needs</em> — whether you are looking for more balance, emotional support, mental clarity, increased energy, or a deeper connection with your body. I am here to guide and support you through that process.</p>
-    <p class="r">Each session begins with a short check-in, followed by guided breathwork and (if needed) gentle bodywork to release tension patterns. We finish with integration so you leave grounded, regulated, and clear.</p>
-    <p class="r" style="font-size:.84rem;color:rgba(242,237,228,.42);margin-top:1.5rem">Sessions take place at <a href="https://www.studiovliegenbos.nl" target="_blank" style="color:var(--sage);text-decoration:none">Studio Vliegenbos</a> — Nieuwendammerkade 24F, 1022AB Amsterdam</p>
-  </div>
-  <div style="margin-top:2rem" class="r"><a href="#" onclick="go('contact');return false" class="btn btn-gold">Get in Touch</a></div>
-</section>
-
-<div class="partners r"><span>In partnership with</span><a href="https://www.studiovliegenbos.nl" target="_blank">Studio Vliegenbos</a><a href="https://www.cosmictruffles.nl/en/" target="_blank">Cosmic Truffles</a><a href="https://innercamp.com" target="_blank">InnerCamp</a><a href="https://learning.breathworkmasterclass.com/breathwork-coach/" target="_blank">Breathwork Masterclass</a></div>
-<footer>
-  <div class="ft-left"><a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
-  <circle cx="21" cy="21" r="17" stroke="#7a9e7e" stroke-width=".6" opacity=".4"/>
-  <circle cx="21" cy="21" r="13" fill="none" stroke="#c9a96e" stroke-width=".6" opacity=".55"/>
-  <line x1="21.00" y1="8.00" x2="9.74" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="14.50" x2="9.74" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="27.50" x2="21.00" y2="34.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="21.00" y1="34.00" x2="32.26" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="27.50" x2="32.26" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="14.50" x2="21.00" y2="8.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
-  <line x1="21.00" y1="8.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="21.00" y1="34.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/>
-  <circle cx="21.00" cy="8.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="21.00" cy="34.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/>
-  <circle cx="21" cy="21" r="2.5" fill="#c9a96e" opacity=".8"/>
-</svg><div class="logo-text" style="font-size:.88rem">Truffle Treatment<small>Amsterdam</small></div></a><p>Breathwork &amp; psilocybin ceremonies in Amsterdam.</p></div>
-  <nav class="ft-nav"><a href="#" onclick="go('home');return false">Home</a><a href="#" onclick="go('breathwork');return false">Breathwork</a><a href="#" onclick="go('psilocybin');return false">Psilocybin</a><a href="#" onclick="go('events');return false">Events</a><a href="#" onclick="go('about');return false">About Me</a><a href="#" onclick="go('contact');return false">Get in Touch</a></nav>
-  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="#" onclick="go('contact');return false">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
-</footer>
-<div class="ft-bottom"><p>© 2025 Truffle Treatment Amsterdam</p><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy</a></div>
-</div>
-
-<div class="page pt" id="p-psilocybin">
-
-<section class="phero" style="position:relative;overflow:hidden;min-height:58vh;padding-top:2rem">
-  <div class="phero-bg" style="background-image:url('labyrinth.jpg');background-size:cover;background-position:center 20%;"></div>
-  <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(14,13,11,.88) 0%,rgba(14,13,11,.55) 60%,rgba(14,13,11,.25) 100%)"></div>
-  <div class="phero-content" style="position:relative;z-index:2">
-    <p class="eyebrow">Psilocybin · Guided Sessions</p>
-    <h1>Guided psilocybin<br/><em>sessions</em></h1>
-    <p class="phero-sub">A safe and supportive space for self-exploration, emotional healing, and deeper connection.</p>
-    <div class="phero-cta"><a href="#" onclick="go('contact');return false" class="btn btn-gold">Get in Touch</a></div>
-  </div>
-</section>
-
-<section class="section">
-  <p class="r">Psilocybin-containing mushrooms and truffles have been used ceremonially by indigenous cultures for generations as tools for healing, insight, and connection.</p>
-  <blockquote class="about-quote r">These experiences can create space for deeper self-awareness, emotional openness, and new perspectives.</blockquote>
-  <p class="r">Psilocybin has the potential to help you break free from entrenched beliefs and thought patterns that may be holding you back or causing distress. It can enable the mind to explore new perspectives and possibilities.</p>
-  <p class="r">Research suggests that psilocybin may temporarily increase neuroplasticity, allowing the brain to become more adaptable and receptive to new perspectives, behaviours, and emotional processing.</p>
-
-  <div class="rule"></div>
-  <div class="slabel r">In her own words</div>
-  <h2 class="r" style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:300;color:#f2ede4;margin-bottom:1rem;line-height:1.2">Hear about the <em style="font-style:italic;color:#7a9e7e">sessions</em></h2>
-  <p class="r" style="font-size:.9rem;color:rgba(242,237,228,.6);max-width:520px;line-height:1.85;margin-bottom:2.5rem">A short conversation about psilocybin sessions — what they look like, and what they can offer.</p>
-  <div class="r" style="position:relative;width:100%;max-width:780px;padding-bottom:min(438px,56.25%);height:0;overflow:hidden;border-radius:2px;background:#0a0f0a;margin-bottom:3rem">
-    <iframe src="https://www.youtube.com/embed/9eKdvOy1Q20" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  <div class="rule"></div>
-  <h2 class="r">The importance of <em>preparation</em></h2>
-  <p class="r">The quality of preparation before a psychedelic experience has a direct correlation to the benefits individuals receive from the session. Adequate preparation can contribute to a more <em class="hi">positive and transformative experience.</em></p>
-  <p class="r">Studies have shown that individuals who engage in thorough preparation tend to report greater <em class="hi">psychological insights, emotional healing, and long-term positive changes.</em> This underscores the importance of mindful and intentional preparation as a crucial aspect of maximising the therapeutic potential of psychedelics.</p>
-  <p class="r" style="font-size:.84rem;color:rgba(242,237,228,.48);margin-bottom:1.5rem">Here are some suggestions designed to help you create the optimal mindset for the journey ahead:</p>
-
-  <div class="prep-grid r">
-    <div class="prep"><h4>Nourish Your Body</h4><p>Lean toward whole, nourishing foods — fresh vegetables, fruits, whole grains, and quality protein. Reducing excess sugar and processed foods helps you feel more balanced and present.</p><p>It's recommended to avoid alcohol and recreational substances for at least one week before the session.</p></div>
-    <div class="prep"><h4>Calm Your Mind</h4><p>Engage in mindfulness practices such as yoga, meditation, journaling, creative art, connecting with nature, and breathwork to centre your mind.</p></div>
-    <div class="prep"><h4>Digital Detox</h4><p>Minimise social media usage, news consumption, and screen time in the days leading to the ceremony. Create a serene mental space by avoiding external influences that may impact your state of mind.</p></div>
-    <div class="prep"><h4>Set Your Intentions</h4><p>Take some time to reflect on your intentions for the ceremony. How would you like to approach the experience? How can you best support yourself leading up to the ceremony?</p></div>
-    <div class="prep"><h4>Practise Self-care</h4><p>Preparation is an opportunity to reflect on your habits, routines, and emotional well-being. What supports your sense of balance and clarity? Where might you benefit from slowing down or creating more space for yourself?</p></div>
-    <div class="prep" style="background:rgba(46,59,47,.18);display:flex;flex-direction:column;justify-content:center"><h4 style="color:var(--sage)">Ready to begin?</h4><p>After our initial conversation and screening process, we move into your preparation time together.</p><a href="#" onclick="go('contact');return false" class="btn btn-sage" style="margin-top:1rem;align-self:flex-start">Get in Touch</a></div>
-  </div>
-
-  <div class="rule"></div>
-  <img src="meditate.jpg" style="width:100%;max-width:600px;height:340px;object-fit:cover;object-position:center 50%;border-radius:2px;margin-bottom:1.5rem;display:block" class="r"/>
-  <h2 class="r">How does your psilocybin <em>journey</em> look?</h2>
-  <p class="r">After our initial conversation and screening process, follows your preparation time. At the day of the session, I will come to a location of your choice — a place that brings you a sense of comfort and instinctual safety.</p>
-
-  <div class="phases r">
-    <div class="phase"><div class="phase-num">Phase 01</div><h3>In your safe space</h3><p>After arriving, I will slowly prepare the space to create a calm and supportive atmosphere. We will find a spot for you where most of the experience will take place — most likely a couch, or somewhere equally comfortable.</p></div>
-    <div class="phase"><div class="phase-num">Phase 02</div><h3>Preparing the medicine</h3><p>I will have prepared the truffles beforehand and once I am at yours, I will add them to a fresh ginger tea. That way it is easier for your body to digest the truffles and get the psilocybin working soon.</p><p>After a short meditation and opening the sacred space, you will slowly begin to drink the medicine while sharing your intentions for the ceremony.</p></div>
-    <div class="phase"><div class="phase-num">Phase 03</div><h3>The journey itself</h3><p>The truffles will begin to take effect about 20–60 minutes after consumption. You may begin to notice shifts in perception, emotions, body sensations, and visual awareness.</p><p>Once you are ready, I will invite you to lay in your comfortable space with your eyes covered, and journey inwards. I will sit back and hold space for you while the music guides you.</p></div>
-    <div class="phase"><div class="phase-num">Phase 04</div><h3>Recover, relax, reflect</h3><p>After about 4 hours, you'll start coming down from the journey — smoothly and gradually. There will be enough time to share how you feel or simply sit in silence while landing.</p><p>Once I make sure you are safe on your own I will leave, and you are free to spend the evening however you like. You will be hungry, and you will have a lot to process, so it is my recommendation not to plan anything for that evening.</p></div>
-  </div>
-
-  <div class="rule"></div>
-  <h2 class="r">The journey <em>continues...</em></h2>
-  <div class="integration-split r" style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;margin:2rem 0">
-    <div>
-      <p>Being able to integrate the insights of our psychedelic experience is essential to the healing process.</p>
-      <p>In the days and weeks following the session, many people notice <em class="hi">increased openness, emotional clarity, and a greater capacity for change and reflection.</em> This period of heightened neuroplasticity offers a unique opportunity to integrate insights into daily life, ultimately promoting personal growth and well-being.</p>
-      <p>Some tips on how to stay connected to the energy of the ceremony afterwards: talk about your experience with people who are open to listen; meditate; journal; spend some time in nature reflecting on your newfound sense of being; discover new ways to connect with and express your creativity.</p>
-      <p>We will be in touch for an integration call and any other way I can support you throughout this process.</p>
-    </div>
-    <div style="overflow:hidden;border-radius:2px;height:420px">
-      <img src="integration.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;transform:scale(0.85);transform-origin:center;display:block"/>
-    </div>
-  </div>
-
-  <p class="r" style="font-size:.88rem;color:rgba(242,237,228,.6);line-height:1.85;max-width:640px;padding-left:1.5rem;border-left:2px solid rgba(122,158,126,.3);margin-bottom:2rem">In order to evaluate your mental and physical health and well-being to ascertain the suitability of the experience for you, please take the time to fill out the <a href="https://www.survio.com/survey/d/U9A1U2B5C9I9E8T7P" target="_blank" style="color:var(--sage);text-decoration:none;border-bottom:1px solid rgba(122,158,126,.3)">screening form</a> prior to our intake.</p>
-  <div class="r"><a href="#" onclick="go('contact');return false" class="btn btn-gold">Get in Touch</a></div>
-</section>
-
-<div class="partners r"><span>In partnership with</span><a href="https://www.studiovliegenbos.nl" target="_blank">Studio Vliegenbos</a><a href="https://www.cosmictruffles.nl/en/" target="_blank">Cosmic Truffles</a><a href="https://innercamp.com" target="_blank">InnerCamp</a><a href="https://learning.breathworkmasterclass.com/breathwork-coach/" target="_blank">Breathwork Masterclass</a></div>
-<footer>
-  <div class="ft-left"><a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
-  <circle cx="21" cy="21" r="17" stroke="#7a9e7e" stroke-width=".6" opacity=".4"/>
-  <circle cx="21" cy="21" r="13" fill="none" stroke="#c9a96e" stroke-width=".6" opacity=".55"/>
-  <line x1="21.00" y1="8.00" x2="9.74" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="14.50" x2="9.74" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="27.50" x2="21.00" y2="34.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="21.00" y1="34.00" x2="32.26" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="27.50" x2="32.26" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="14.50" x2="21.00" y2="8.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
-  <line x1="21.00" y1="8.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="21.00" y1="34.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/>
-  <circle cx="21.00" cy="8.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="21.00" cy="34.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/>
-  <circle cx="21" cy="21" r="2.5" fill="#c9a96e" opacity=".8"/>
-</svg><div class="logo-text" style="font-size:.88rem">Truffle Treatment<small>Amsterdam</small></div></a><p>Breathwork &amp; psilocybin ceremonies in Amsterdam.</p></div>
-  <nav class="ft-nav"><a href="#" onclick="go('home');return false">Home</a><a href="#" onclick="go('breathwork');return false">Breathwork</a><a href="#" onclick="go('psilocybin');return false">Psilocybin</a><a href="#" onclick="go('events');return false">Events</a><a href="#" onclick="go('about');return false">About Me</a><a href="#" onclick="go('contact');return false">Get in Touch</a></nav>
-  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="#" onclick="go('contact');return false">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
-</footer>
-<div class="ft-bottom"><p>© 2025 Truffle Treatment Amsterdam</p><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy</a></div>
-</div>
-
-<div class="page pt" id="p-events">
-
-<section class="phero">
-  <div class="phero-bg"></div>
-  <div class="phero-content">
-    <p class="eyebrow">Events &amp; Ceremonies</p>
-    <h1>Gather, breathe,<br/><em>go deeper</em></h1>
-    <p class="phero-sub">Group ceremonies, workshops, and seasonal gatherings — spaces designed for collective healing and shared presence.</p>
-  </div>
-</section>
-
-<section class="section">
-  <p class="r">Events are announced here and on Instagram. They vary in format — from full truffle ceremonies to breathwork journeys and workshops. Each one is held in a small group setting, so there's space for real depth.</p>
-
-  <div class="slabel r">Upcoming</div>
-  <div class="ev-featured r">
-    <div class="ev-featured-label">Date to be announced — stay tuned</div>
-    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.8rem);font-weight:300;line-height:1.15;margin-bottom:.8rem;color:var(--cream)">Deep Dive<br/><em style="font-style:italic;color:var(--sage)">Truffle Ceremony</em></h2>
-    <p style="font-size:.95rem;color:rgba(242,237,228,.72);max-width:600px;line-height:1.9;margin-bottom:1.5rem">A unique experience into the magic world of psilocybin truffles, designed with love, music and careful guidance. Take a journey into your own inner landscape, supported by the soothing embrace of nature and the safety of a loving community.</p>
-    <div style="margin-bottom:1.5rem">
-      <div style="display:flex;gap:1rem;margin-bottom:.6rem;align-items:flex-start"><span style="font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);width:60px;flex-shrink:0;padding-top:.15rem">Venue</span><span style="font-size:.88rem;color:rgba(242,237,228,.65)">A beautiful yurt in Den Ilp — 30 minutes from Amsterdam</span></div>
-      <div style="display:flex;gap:1rem;align-items:flex-start"><span style="font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);width:60px;flex-shrink:0;padding-top:.15rem">Time</span><span style="font-size:.88rem;color:rgba(242,237,228,.65)">10:00 – 18:00</span></div>
-    </div>
-    <div class="ev-program">
-      <p class="ev-program-label">Programme</p>
-      <div class="ev-program-item"><span class="ev-program-time">10:00</span><span>Arrival and preparation</span></div>
-      <div class="ev-program-item"><span class="ev-program-time">10:30</span><span>Ceremony begins</span></div>
-      <div class="ev-program-item"><span class="ev-program-time">15:00</span><span>Closing the ceremony</span></div>
-      <div class="ev-program-item"><span class="ev-program-time">15:30</span><span>Soup, snacks and sharing insights &amp; experiences</span></div>
-      <div class="ev-program-item"><span class="ev-program-time">18:00</span><span>Cleaning up together, hugs and farewells</span></div>
-    </div>
-    <a href="#" onclick="go('contact');return false" class="btn btn-sage">Get in Touch</a>
-  </div>
-
-  <div class="slabel r">Other formats</div>
-  <div class="event-cards r">
-    <div class="ev"><div class="ev-date">Coming soon</div><h3>Cacao &amp; Breathwork Ceremony</h3><p>A gentle group journey combining cacao, conscious breathing, and movement. No prior experience needed.</p><div class="ev-tags"><span class="tag">Group · 8 max</span><span class="tag">3 hrs</span></div><a href="#" onclick="go('contact');return false" class="btn btn-sage">Get in Touch</a></div>
-    <div class="ev"><div class="ev-date">On request</div><h3>Private Group Ceremonies</h3><p>Want to organise something for your team, community, or a group of friends? Get in touch and we'll design something together.</p><div class="ev-tags"><span class="tag">Bespoke</span><span class="tag">Any size</span></div><a href="#" onclick="go('contact');return false" class="btn btn-sage">Make a Request</a></div>
-  </div>
-  <p class="r" style="font-size:.85rem;color:rgba(242,237,228,.45);line-height:1.75;margin-top:1rem">Follow <a href="https://instagram.com/truffletreatment" target="_blank" style="color:var(--sage);text-decoration:none;border-bottom:1px solid rgba(122,158,126,.3)">@truffletreatment</a> on Instagram to be the first to hear about new events.</p>
-
-  <div class="r" style="margin-top:4rem;padding-top:3rem;border-top:1px solid rgba(242,237,228,.07);max-width:520px">
-    <div class="slabel">Stay in the loop</div>
-    <p class="r" style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:300;font-style:italic;color:rgba(242,237,228,.7);line-height:1.65;margin-bottom:2rem">Sign up to receive the first word about our future events and ceremonies.</p>
-    <form id="newsletter-form" action="https://api.web3forms.com/submit" method="POST">
-      <input type="hidden" name="access_key" value="c9808d27-3890-4220-8a8a-c927b9bce3e0"/>
-      <input type="hidden" name="subject" value="New newsletter signup — Truffle Treatment"/>
-      <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:#c9a96e;margin-bottom:.5rem;font-weight:200">First Name</label>
-      <input type="text" name="firstname" placeholder="Your first name" style="width:100%;background:rgba(242,237,228,.04);border:1px solid rgba(242,237,228,.11);color:#f2ede4;padding:.85rem 1rem;font-family:'Jost',sans-serif;font-size:.87rem;border-radius:2px;outline:none;margin-bottom:1.2rem;display:block"/>
-      <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:#c9a96e;margin-bottom:.5rem;font-weight:200">Last Name</label>
-      <input type="text" name="lastname" placeholder="Your last name" style="width:100%;background:rgba(242,237,228,.04);border:1px solid rgba(242,237,228,.11);color:#f2ede4;padding:.85rem 1rem;font-family:'Jost',sans-serif;font-size:.87rem;border-radius:2px;outline:none;margin-bottom:1.2rem;display:block"/>
-      <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:#c9a96e;margin-bottom:.5rem;font-weight:200">Email Address</label>
-      <input type="email" name="email" placeholder="your@email.com" required style="width:100%;background:rgba(242,237,228,.04);border:1px solid rgba(242,237,228,.11);color:#f2ede4;padding:.85rem 1rem;font-family:'Jost',sans-serif;font-size:.87rem;border-radius:2px;outline:none;margin-bottom:1.5rem;display:block"/>
-      <button type="submit" style="background:#c9a96e;color:#0e0d0b;padding:.85rem 2rem;font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;border-radius:2px;border:none;cursor:pointer">Sign Me Up</button>
-    </form>
-    <div id="newsletter-ok" style="display:none;padding:1.8rem 2rem;border:1px solid rgba(122,158,126,.3);background:rgba(122,158,126,.07);border-radius:2px;margin-top:1rem">
-      <p style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--sage);margin-bottom:.4rem">You're on the list.</p>
-      <p style="font-size:.84rem;color:rgba(242,237,228,.55)">You'll hear from me when something special is coming.</p>
-    </div>
-  </div>
-</section>
-
-<div class="partners r"><span>In partnership with</span><a href="https://www.studiovliegenbos.nl" target="_blank">Studio Vliegenbos</a><a href="https://www.cosmictruffles.nl/en/" target="_blank">Cosmic Truffles</a><a href="https://innercamp.com" target="_blank">InnerCamp</a><a href="https://learning.breathworkmasterclass.com/breathwork-coach/" target="_blank">Breathwork Masterclass</a></div>
-<footer>
-  <div class="ft-left"><a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
-  <circle cx="21" cy="21" r="17" stroke="#7a9e7e" stroke-width=".6" opacity=".4"/>
-  <circle cx="21" cy="21" r="13" fill="none" stroke="#c9a96e" stroke-width=".6" opacity=".55"/>
-  <line x1="21.00" y1="8.00" x2="9.74" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="14.50" x2="9.74" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="27.50" x2="21.00" y2="34.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="21.00" y1="34.00" x2="32.26" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="27.50" x2="32.26" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="14.50" x2="21.00" y2="8.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
-  <line x1="21.00" y1="8.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="21.00" y1="34.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/>
-  <circle cx="21.00" cy="8.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="21.00" cy="34.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/>
-  <circle cx="21" cy="21" r="2.5" fill="#c9a96e" opacity=".8"/>
-</svg><div class="logo-text" style="font-size:.88rem">Truffle Treatment<small>Amsterdam</small></div></a><p>Breathwork &amp; psilocybin ceremonies in Amsterdam.</p></div>
-  <nav class="ft-nav"><a href="#" onclick="go('home');return false">Home</a><a href="#" onclick="go('breathwork');return false">Breathwork</a><a href="#" onclick="go('psilocybin');return false">Psilocybin</a><a href="#" onclick="go('events');return false">Events</a><a href="#" onclick="go('about');return false">About Me</a><a href="#" onclick="go('contact');return false">Get in Touch</a></nav>
-  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="#" onclick="go('contact');return false">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
-</footer>
-<div class="ft-bottom"><p>© 2025 Truffle Treatment Amsterdam</p><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy</a></div>
-</div>
-
-<div class="page pt" id="p-about">
-
-<section class="phero" style="min-height:65vh;position:relative;overflow:hidden">
-  <div class="phero-bg" style="background-image:url('about.jpg');background-size:cover;background-position:center 15%;"></div>
-  <div style="position:absolute;inset:0;background:linear-gradient(160deg,rgba(14,13,11,.8) 0%,rgba(14,13,11,.5) 50%,rgba(14,13,11,.2) 100%)"></div>
-  <div class="phero-content" style="position:relative;z-index:2">
-    <p class="eyebrow">About Me</p>
-    <h1>Hi,<br/>I'm <em>Polina.</em></h1>
-  </div>
-</section>
-
-<section class="section">
-  <p class="r" style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.2rem,1.9vw,1.55rem);font-weight:300;font-style:italic;color:var(--sage);line-height:1.65;border-left:2px solid rgba(122,158,126,.45);padding-left:1.8rem;max-width:680px;margin-bottom:2.5rem">My journey as a psychedelic facilitator started in 2016 as a natural continuation of my personal path.</p>
-
-  <div style="max-width:700px">
-    <p class="r">I received an invitation from a friend to participate in a plant medicine ceremony, an event that turned out to be the most profound and life-altering experience I've ever had. It marked a pivotal moment in my life, guiding me toward a completely new path — one of deep inner exploration and transformation.</p>
-    <p class="r">I see life through a holistic view and I believe that achieving and maintaining good health asks from us to look for alternative and ancient ways to restore balance in our minds and bodies. Becoming a Level 3 Breathcoach through the training program of Kasper van der Meulen (<a href="https://breathworkmasterclass.com" target="_blank" style="color:var(--sage);text-decoration:none">breathworkmasterclass.com</a>) has inspired me to dive deep into the biology and biochemistry of the body and implement breathwork as a very powerful tool to release stress and tension from our system, return to a balanced state, and find a deeper understanding of our bodies.</p>
-    <p class="r">In my work, I incorporate breathwork, sound, movement, bodywork, somatic experiencing techniques, meditation and emotional release, that help facilitate the deep transformative aspects of the journeys I offer.</p>
-    <p class="r">All the years of experience have provided me with valuable insights into the crucial significance of having the proper support and care during our personal journeys towards wholeness. Considering the humbling, profound and introspective nature of the sessions that I offer, through a screening process, I make sure that you are ready and eligible to take on that journey.</p>
-    <blockquote class="about-quote r">My intention is to create an environment where you feel safe, acknowledged, heard and truly understood — recognising these as essential elements in the healing process.</blockquote>
-    <p class="r">I hold deep gratitude for every chance I've had to guide individuals through the remarkable and transformative journeys that magic truffles and breathwork can offer.</p>
-    <p class="r">I believe in <em class="hi">the inherent potential within each one of us</em> to live a life enriched by freedom, happiness and a profound love for existence — and healing ourselves is essential to inviting and embodying that potential.</p>
-    <p class="r" style="font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-style:italic;color:var(--sage);margin:2rem 0 1.5rem">Welcome to your journey back home!</p>
-    <div class="r"><a href="#" onclick="go('contact');return false" class="btn btn-gold">Get in Contact</a></div>
-  </div>
-</section>
-
-<div class="partners r"><span>In partnership with</span><a href="https://www.studiovliegenbos.nl" target="_blank">Studio Vliegenbos</a><a href="https://www.cosmictruffles.nl/en/" target="_blank">Cosmic Truffles</a><a href="https://innercamp.com" target="_blank">InnerCamp</a><a href="https://learning.breathworkmasterclass.com/breathwork-coach/" target="_blank">Breathwork Masterclass</a></div>
-<footer>
-  <div class="ft-left"><a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
-  <circle cx="21" cy="21" r="17" stroke="#7a9e7e" stroke-width=".6" opacity=".4"/>
-  <circle cx="21" cy="21" r="13" fill="none" stroke="#c9a96e" stroke-width=".6" opacity=".55"/>
-  <line x1="21.00" y1="8.00" x2="9.74" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="14.50" x2="9.74" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="27.50" x2="21.00" y2="34.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="21.00" y1="34.00" x2="32.26" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="27.50" x2="32.26" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="14.50" x2="21.00" y2="8.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
-  <line x1="21.00" y1="8.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="21.00" y1="34.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/>
-  <circle cx="21.00" cy="8.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="21.00" cy="34.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/>
-  <circle cx="21" cy="21" r="2.5" fill="#c9a96e" opacity=".8"/>
-</svg><div class="logo-text" style="font-size:.88rem">Truffle Treatment<small>Amsterdam</small></div></a><p>Breathwork &amp; psilocybin ceremonies in Amsterdam.</p></div>
-  <nav class="ft-nav"><a href="#" onclick="go('home');return false">Home</a><a href="#" onclick="go('breathwork');return false">Breathwork</a><a href="#" onclick="go('psilocybin');return false">Psilocybin</a><a href="#" onclick="go('events');return false">Events</a><a href="#" onclick="go('about');return false">About Me</a><a href="#" onclick="go('contact');return false">Get in Touch</a></nav>
-  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="#" onclick="go('contact');return false">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
-</footer>
-<div class="ft-bottom"><p>© 2025 Truffle Treatment Amsterdam</p><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy</a></div>
-</div>
-
-<div class="page pt" id="p-contact">
-
-<section class="phero" style="position:relative;overflow:hidden">
-  <div class="phero-bg" style="background-image:url('Dandelion.jpg');background-size:cover;background-position:center;"></div>
-  <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(14,13,11,.88) 0%,rgba(14,13,11,.6) 60%,rgba(14,13,11,.35) 100%)"></div>
-  <div class="phero-content" style="position:relative;z-index:2">
-    <p class="eyebrow">Get in Touch</p>
-    <h1>Take the<br/><em>first step</em></h1>
-    <p class="phero-sub">Reach out for a free 20-minute intro call. No pressure — just a conversation about where you are and what might serve you.</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="contact-grid">
-    <div class="r">
-      <div class="slabel">Before you write</div>
-      <p>There is no obligation when you reach out. I'd love to hear a little about where you are and what brought you here — and we'll take it from there.</p>
-      <p>I typically respond within 1–2 working days. You can also message me on Instagram.</p>
-      <div style="margin-top:2rem">
-        <div class="cd"><span class="cd-label">Location</span><span class="cd-val">Amsterdam, Netherlands</span></div>
-        <div class="cd"><span class="cd-label">Sessions</span><span class="cd-val">In English</span></div>
-        <div class="cd"><span class="cd-label">Instagram</span><span class="cd-val"><a href="https://instagram.com/truffletreatment" target="_blank">@truffletreatment</a></span></div>
-        <div class="cd"><span class="cd-label">Response</span><span class="cd-val">Within 1–2 working days</span></div>
-      </div>
-    </div>
-    <div class="r" style="transition-delay:.15s">
-      <div class="slabel">Send a message</div>
-      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="c9808d27-3890-4220-8a8a-c927b9bce3e0"/>
-        <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;font-weight:200">Your name</label>
-        <input type="text" name="name" placeholder="First and last name" required/>
-        <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;font-weight:200">Email address</label>
-        <input type="email" name="email" placeholder="you@example.com" required/>
-        <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;font-weight:200">I'm interested in</label>
-        <select name="interest"><option value="">Select a session type...</option><option>Breathwork — 1:1</option><option>Breathwork — Group / Event</option><option>Psilocybin — Private Session</option><option>Events &amp; Ceremonies</option><option>Not sure yet — just curious</option></select>
-        <label style="display:block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;font-weight:200">A little about you &amp; your intentions</label>
-        <textarea name="message" placeholder="What brings you here? What are you hoping to explore or work through?" required></textarea>
-        <button type="submit" class="btn btn-gold">Send Message</button>
-        <p class="fn">Your message goes directly to Polina. It's confidential and will only be used to respond to your enquiry.</p>
-      </form>
-      <div id="form-ok" style="display:none;padding:1.8rem 2rem;border:1px solid rgba(122,158,126,.3);background:rgba(122,158,126,.07);border-radius:2px;margin-top:1rem">
-        <p style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--sage);margin-bottom:.4rem">Thank you for reaching out.</p>
-        <p style="font-size:.84rem;color:rgba(242,237,228,.55)">I'll be in touch within 1–2 working days.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="partners r"><span>In partnership with</span><a href="https://www.studiovliegenbos.nl" target="_blank">Studio Vliegenbos</a><a href="https://www.cosmictruffles.nl/en/" target="_blank">Cosmic Truffles</a><a href="https://innercamp.com" target="_blank">InnerCamp</a><a href="https://learning.breathworkmasterclass.com/breathwork-coach/" target="_blank">Breathwork Masterclass</a></div>
-<footer>
-  <div class="ft-left"><a class="logo" href="#" onclick="go('home');return false"><svg viewBox="0 0 42 42" fill="none" width="28" height="28">
-  <circle cx="21" cy="21" r="17" stroke="#7a9e7e" stroke-width=".6" opacity=".4"/>
-  <circle cx="21" cy="21" r="13" fill="none" stroke="#c9a96e" stroke-width=".6" opacity=".55"/>
-  <line x1="21.00" y1="8.00" x2="9.74" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="14.50" x2="9.74" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="9.74" y1="27.50" x2="21.00" y2="34.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="21.00" y1="34.00" x2="32.26" y2="27.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="27.50" x2="32.26" y2="14.50" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/><line x1="32.26" y1="14.50" x2="21.00" y2="8.00" stroke="#7a9e7e" stroke-width=".5" opacity=".4"/>
-  <line x1="21.00" y1="8.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="9.74" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="21.00" y1="34.00" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="27.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/><line x1="32.26" y1="14.50" x2="21" y2="21" stroke="#c9a96e" stroke-width=".4" opacity=".35"/>
-  <circle cx="21.00" cy="8.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="9.74" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="21.00" cy="34.00" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="27.50" r="1.8" fill="#7a9e7e" opacity=".8"/><circle cx="32.26" cy="14.50" r="1.8" fill="#7a9e7e" opacity=".8"/>
-  <circle cx="21" cy="21" r="2.5" fill="#c9a96e" opacity=".8"/>
-</svg><div class="logo-text" style="font-size:.88rem">Truffle Treatment<small>Amsterdam</small></div></a><p>Breathwork &amp; psilocybin ceremonies in Amsterdam.</p></div>
-  <nav class="ft-nav"><a href="#" onclick="go('home');return false">Home</a><a href="#" onclick="go('breathwork');return false">Breathwork</a><a href="#" onclick="go('psilocybin');return false">Psilocybin</a><a href="#" onclick="go('events');return false">Events</a><a href="#" onclick="go('about');return false">About Me</a><a href="#" onclick="go('contact');return false">Get in Touch</a></nav>
-  <div class="ft-right"><a href="https://instagram.com/truffletreatment" target="_blank">Instagram</a><a href="#" onclick="go('contact');return false">Contact</a><a href="T%26C%20Truffle%20Treatment.pdf" target="_blank">Terms &amp; Conditions</a><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy Policy</a></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;padding-left:2rem;border-left:1px solid rgba(242,237,228,.07);--ab-align:flex-end"><span style="font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(242,237,228,.25)">Also by Polina</span><a href="https://allurabreath.com" target="_blank" style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--parchment);text-decoration:none;letter-spacing:.06em;line-height:1.2">Allura <em style="font-style:italic;color:var(--sage)">Breath</em></a></div>
-</footer>
-<div class="ft-bottom"><p>© 2025 Truffle Treatment Amsterdam</p><a href="Privacy_Policy_TT.pdf" target="_blank">Privacy</a></div>
-</div>
-
 <script>
-function go(id,pushState){
-  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
-  var el=document.getElementById('p-'+id);
-  if(!el)return;
-  el.classList.add('active');
-  window.scrollTo(0,0);
-  if(pushState!==false){history.pushState({page:id},'','#'+id)}
-  setTimeout(function(){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('on','visible')})},{threshold:.07});
-    el.querySelectorAll('.r,.reveal').forEach(function(r){r.classList.remove('on','visible');obs.observe(r)});
-  },40);
-}
-window.addEventListener('popstate',function(e){
-  var id=(e.state&&e.state.page)||(location.hash?location.hash.slice(1):'home');
-  go(id,false);
-});
 function toggleMenu(){document.body.classList.toggle('open')}
-var cf=document.getElementById('contact-form');
-if(cf)cf.addEventListener('submit',function(e){
-  e.preventDefault();
-  var data=new FormData(cf);
-  fetch('https://api.web3forms.com/submit',{method:'POST',body:data})
-    .then(function(r){return r.json()})
-    .then(function(r){
-      if(r.success){
-        cf.style.display='none';
-        var ok=document.getElementById('form-ok');
-        if(ok)ok.style.display='block';
-      }
-    });
-});
-var nf=document.getElementById('newsletter-form');
-if(nf)nf.addEventListener('submit',function(e){
-  e.preventDefault();
-  var data=new FormData(nf);
-  fetch('https://api.web3forms.com/submit',{method:'POST',body:data})
-    .then(function(r){return r.json()})
-    .then(function(r){
-      if(r.success){
-        nf.style.display='none';
-        var ok=document.getElementById('newsletter-ok');
-        if(ok)ok.style.display='block';
-      }
-    });
+document.addEventListener('DOMContentLoaded',function(){
+  var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('on','visible')});},{threshold:.07});
+  document.querySelectorAll('.r,.reveal').forEach(function(r){obs.observe(r)});
 });
 var testiIndex=0,testiTotal=3;
 function testiMove(dir){testiGo((testiIndex+dir+testiTotal)%testiTotal)}
 function testiGo(n){testiIndex=n;var t=document.getElementById('testi-track');if(t)t.style.transform='translateX(-'+(n*100)+'%)';document.querySelectorAll('.testi-dot').forEach(function(d,i){d.classList.toggle('active',i===n)})}
-go('home');
 </script>
 </body>
 </html>
